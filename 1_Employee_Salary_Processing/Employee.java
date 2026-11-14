@@ -26,12 +26,15 @@ abstract public class Employee {
             throw new IllegalArgumentException("Invalid Employee Name.");
         }
 
+<<<<<<< HEAD
         for(char c : employeeName.toCharArray()) {
             if(!Character.isLetter(c)) {
                 throw new IllegalArgumentException("Invalid name");
             }
         }
 
+=======
+>>>>>>> 0734706c8623827635cd2440a8d1fdb665e9a98f
         this.employeeName = employeeName;
     }
 
