@@ -8,5 +8,7 @@ public class Main {
         InputHandler handler = new InputHandler(scanner);
 
         handler.start();
+
+        scanner.close();
     }
 }
