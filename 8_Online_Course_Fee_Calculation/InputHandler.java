@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class InputHandler {
 
     private final Scanner scanner;
